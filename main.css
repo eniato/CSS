@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: rgba(16, 0, 78, 0.973);
+    padding: 16px 0;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display:inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px  
+}
+
+header li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header li a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 100%;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.artigo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigo article img {
+    /*height: 180px; */
+    width: 100%;
+}
+
+.artigo article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.artigo article {
+    margin-bottom: 16px;
+}
+.artigo article h3 {
+    margin-top: 1px;
+    margin-bottom: 8px;
+}
+
+.artigo article p,
+.artigo article a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.artigo article h3 {
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+.artigo article a {
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+.artigo article a:hover {
+    text-decoration: underline;
+}
+
+#esportes {
+    background-color: rgba(29, 0, 133, 0.2);
+}
+
+#esportes .artigo article a {
+    background-color: rgba(29, 0, 133, 0.8);
+    border-radius: 10px;
+}
+
+#economia {
+    background-color: rgba(195, 255, 0, 0.2);
+}
+
+#economia .artigo article a {
+    background-color: rgba(255, 166, 12, 0.925);
+    border-radius: 10px;
+}
+
+footer{
+    background-color: rgb(22, 79, 0);
+}
+
+footer .container {
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 36px 0;
+    margin-right: 30px;
+}
+
+footer .container ul {
+    width: 100%;
+}
+
+footer .container h3 {
+    margin-bottom: 16px;
+    font-weight: 60px;
+}
+
+footer .container .redes-sociais img {
+    margin-right: 3px;
+    padding: 16px 0;
+}
+
+footer .container .ul2 {
+    padding: 100px 0;
+    font-size: 15px;
+}
+
